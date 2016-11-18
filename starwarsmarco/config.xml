@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.fib.lp5.swm" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Star Wars Marco</name>
+    <description>
+        Trabalho de LPV - SWAPI - Marco
+    </description>
+    <author email="marco_oliveira94@live.com" href="http://www.fibbauru.br">
+        Marco Antonio de Oliveira Junior
+    </author>
+    <content src="index.html" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <platform name="android">
+        <preference name="StatusBarBackgroundColor" value="#E86C13" />
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="~5.2.2" />
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.3.0" />
+	<access origin="*" />
+</widget>
